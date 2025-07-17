@@ -51,8 +51,8 @@ st.title("🇵🇰 Salary Tax vs Remittance Comparison Tool")
 st.write("Compare your local taxed salary vs remittance (Payoneer → UBL) to see which is better.")
 
 # Inputs
-monthly_salary = st.number_input("Enter your monthly gross salary (PKR)", min_value=0.0, value=0.0)
-dollar_rate = st.number_input("Enter the current dollar rate", min_value=100.0, value=0.0)
+monthly_salary = st.number_input("Enter your monthly gross salary (PKR)", min_value=0.0, value=100000.0)
+dollar_rate = st.number_input("Enter the current dollar rate", min_value=100.0, value=285.0)
 
 if st.button("Compare Now"):
     # Local tax calculation
