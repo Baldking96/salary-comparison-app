@@ -22,7 +22,7 @@ Compare your monthly salary as a **locally taxed income** vs **remittance (Payon
 
 ## 🖥 Try It Live
 
-👉 [Open the App](([https://baldking96-salary-comparison-app.streamlit.app](https://salary-comparison-app-stxhbcwbfguvwgjlqhqsgz.streamlit.app/))
+👉 [Open the App](https://salary-comparison-app-stxhbcwbfguvwgjlqhqsgz.streamlit.app/)
 
 ---
 
