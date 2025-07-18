@@ -30,16 +30,16 @@ def calculate_remittance_conversion_fixed(monthly_salary_pkr, dollar_rate):
 
     # Fixed deductions
     to_payoneer = salary_usd * 0.99       # 1% fee
-    to_ubl = to_payoneer * 0.98          # 2% fee on Payoneer amount
+    to_ubl_meezan = to_payoneer * 0.97          # 3% fee on Payoneer amount
 
-    pkr_equivalent = to_ubl * dollar_rate
+    pkr_equivalent = to_ubl_meezan * dollar_rate
     tax = pkr_equivalent * 0.0025         # 0.25%
     total_pkr_after_deduction = pkr_equivalent - tax
 
     return {
         "Salary in USD": salary_usd,
         "Transfer to Payoneer (1%)": to_payoneer,
-        "Transfer to UBL (2%)": to_ubl,
+        "Transfer to UBL (3%)": to_ubl_meezan,
         "PKR Equivalent": pkr_equivalent,
         "Tax (.25%)": tax,
         "Final PKR Received": total_pkr_after_deduction
