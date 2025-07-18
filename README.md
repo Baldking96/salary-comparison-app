@@ -12,8 +12,8 @@ Compare your monthly salary as a **locally taxed income** vs **remittance (Payon
 - ✅ Income tax calculated per 2025–2026 slabs
 - ✅ 10% tax-exempt medical allowance
 - ✅ Remittance deductions:
-  - 1% Payoneer fee
-  - 1.5% UBL fee
+  - 1% ACH CLient to Payoneer
+  - 3% Payoneer to UBL/Meezan
   - 0.25% PKR transfer tax
 - ✅ Monthly and annual income comparison
 - ✅ Result: which option is more beneficial
